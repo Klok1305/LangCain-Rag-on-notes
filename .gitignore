@@ -1,0 +1,16 @@
+/chroma/**
+!/chroma/.gitkeep
+
+/data/pdf/**
+!/data/pdf/.gitkeep
+
+/data/txt/**
+!/data/txt/.gitkeep
+
+__pycache__/
+*.pyc
+*.pyo
+
+.DS_Store
+Thumbs.db
+.venv
