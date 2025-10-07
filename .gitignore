@@ -1,16 +1,30 @@
-/chroma/**
-!/chroma/.gitkeep
+# ----- По умолчанию игнорируем всё
+*
 
-/data/pdf/**
-!/data/pdf/.gitkeep
+!.gitignore
+!README.md
+!LICENSE
+!requirements.txt
+!pyproject.toml
+!.editorconfig
+!.gitattributes
 
-/data/txt/**
-!/data/txt/.gitkeep
+!src/
+!src/**
 
-__pycache__/
-*.pyc
-*.pyo
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*.so
+**/*.dll
+**/*.dylib
 
+.venv/
+chroma/
+data/
+notebooks/
+logs/
+.env
 .DS_Store
 Thumbs.db
-.venv
