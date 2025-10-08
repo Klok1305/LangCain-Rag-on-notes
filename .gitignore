@@ -11,6 +11,7 @@
 
 !src/
 !src/**
+!app.py
 
 **/__pycache__/
 **/*.pyc
