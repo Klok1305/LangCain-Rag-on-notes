@@ -1,31 +1,25 @@
-# ----- По умолчанию игнорируем всё
 *
 
 !.gitignore
 !README.md
 !LICENSE
 !requirements.txt
-!pyproject.toml
+!app.py
+!/src/**
 !.editorconfig
 !.gitattributes
 
-!src/
-!src/**
-!app.py
+!/chroma/
+!/data/
+!/data/pdf/
+!/data/txt/
 
-**/__pycache__/
-**/*.pyc
-**/*.pyo
-**/*.pyd
-**/*.so
-**/*.dll
-**/*.dylib
+/chroma/*
+/data/*
+/data/pdf/*
+/data/txt/*
 
-.venv/
-chroma/
-data/
-notebooks/
-logs/
-.env
-.DS_Store
-Thumbs.db
+!/chroma/.gitkeep
+!/data/.gitkeep
+!/data/pdf/.gitkeep
+!/data/txt/.gitkeep
